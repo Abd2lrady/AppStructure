@@ -1,0 +1,35 @@
+
+xcassets:
+  - inputs: AppStructure/Resources/Assets
+    outputs:
+        templateName: swift5
+        output: AppStructure/Resources/Generated/Assets.swift
+        params:
+            enumName: Assets
+
+colors:
+  - inputs: AppStructure/Resources/Colors/Colors.txt
+    outputs:
+        templateName: swift5
+        output: AppStructure/Resources/Generated/Colors.swift
+        params:
+            enumName: Colors
+
+fonts:
+  - inputs: AppStructure/Resources/Fonts
+    outputs:
+        templateName: swift5
+        output: AppStructure/Resources/Generated/Fonts.swift
+        params:
+            enumName: Fonts
+
+strings:
+  - inputs: AppStructure/Resources/Strings/Localizable.strings
+    outputs:
+        templateName: structured-swift5
+        output: AppStructure/Resources/Generated/Strings.swift
+        params:
+            enumName: Strings
+
+
+

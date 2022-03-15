@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B42DE58127E0B504009711F4 /* swiftgen.yml */; };
+		B4E659D127E0C7DC00B0CC4B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C227E0C7DC00B0CC4B /* Strings.swift */; };
+		B4E659D227E0C7DC00B0CC4B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C327E0C7DC00B0CC4B /* Assets.swift */; };
+		B4E659D327E0C7DC00B0CC4B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C527E0C7DC00B0CC4B /* Fonts.swift */; };
+		B4E659D427E0C7DC00B0CC4B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C727E0C7DC00B0CC4B /* Colors.swift */; };
+		B4E659D527E0C7DC00B0CC4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4E659CB27E0C7DC00B0CC4B /* Localizable.strings */; };
+		B4E659D627E0C7DC00B0CC4B /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4E659CD27E0C7DC00B0CC4B /* Colors.txt */; };
+		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256827E0A73E0032D511 /* AppDelegate.swift */; };
 		B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */; };
 		B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256C27E0A73E0032D511 /* ViewController.swift */; };
-		B4EE257227E0A7400032D511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EE257127E0A7400032D511 /* Assets.xcassets */; };
 		B4EE257527E0A7400032D511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EE257327E0A7400032D511 /* LaunchScreen.storyboard */; };
 		DADBCF420C8372FF029FA219 /* libPods-AppStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF5E5DEEB38A34C17DC60B4 /* libPods-AppStructure.a */; };
 /* End PBXBuildFile section */
@@ -19,11 +26,18 @@
 		1BF5E5DEEB38A34C17DC60B4 /* libPods-AppStructure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppStructure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BF533234D6F138C938E8B /* Pods-AppStructure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.release.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.release.xcconfig"; sourceTree = "<group>"; };
 		78E679DC4F7631E1292EBAA4 /* Pods-AppStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.debug.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.debug.xcconfig"; sourceTree = "<group>"; };
+		B42DE58127E0B504009711F4 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		B4E659C227E0C7DC00B0CC4B /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		B4E659C327E0C7DC00B0CC4B /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		B4E659C527E0C7DC00B0CC4B /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B4E659C727E0C7DC00B0CC4B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B4E659CB27E0C7DC00B0CC4B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B4E659CD27E0C7DC00B0CC4B /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4EE256527E0A73E0032D511 /* AppStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4EE256827E0A73E0032D511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4EE256C27E0A73E0032D511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4EE257127E0A7400032D511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4EE257427E0A7400032D511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4EE257627E0A7400032D511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,13 +68,67 @@
 				78E679DC4F7631E1292EBAA4 /* Pods-AppStructure.debug.xcconfig */,
 				397BF533234D6F138C938E8B /* Pods-AppStructure.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4E659C027E0C7DC00B0CC4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659C127E0C7DC00B0CC4B /* Generated */,
+				B4E659CA27E0C7DC00B0CC4B /* Strings */,
+				B4E659CC27E0C7DC00B0CC4B /* Colors */,
+				B4E659CE27E0C7DC00B0CC4B /* Fonts */,
+				B4E659CF27E0C7DC00B0CC4B /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4E659C127E0C7DC00B0CC4B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659C227E0C7DC00B0CC4B /* Strings.swift */,
+				B4E659C327E0C7DC00B0CC4B /* Assets.swift */,
+				B4E659C527E0C7DC00B0CC4B /* Fonts.swift */,
+				B4E659C727E0C7DC00B0CC4B /* Colors.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		B4E659CA27E0C7DC00B0CC4B /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659CB27E0C7DC00B0CC4B /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		B4E659CC27E0C7DC00B0CC4B /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659CD27E0C7DC00B0CC4B /* Colors.txt */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		B4E659CE27E0C7DC00B0CC4B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B4E659CF27E0C7DC00B0CC4B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		B4EE255C27E0A73E0032D511 = {
 			isa = PBXGroup;
 			children = (
+				B42DE58127E0B504009711F4 /* swiftgen.yml */,
 				B4EE256727E0A73E0032D511 /* AppStructure */,
 				B4EE256627E0A73E0032D511 /* Products */,
 				585029FCB0E6CEB61B7C9462 /* Pods */,
@@ -79,10 +147,10 @@
 		B4EE256727E0A73E0032D511 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
+				B4E659C027E0C7DC00B0CC4B /* Resources */,
 				B4EE256827E0A73E0032D511 /* AppDelegate.swift */,
 				B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */,
 				B4EE256C27E0A73E0032D511 /* ViewController.swift */,
-				B4EE257127E0A7400032D511 /* Assets.xcassets */,
 				B4EE257327E0A7400032D511 /* LaunchScreen.storyboard */,
 				B4EE257627E0A7400032D511 /* Info.plist */,
 			);
@@ -97,6 +165,7 @@
 			buildConfigurationList = B4EE257927E0A7400032D511 /* Build configuration list for PBXNativeTarget "AppStructure" */;
 			buildPhases = (
 				05AB9C8DD3A542FAE152811A /* [CP] Check Pods Manifest.lock */,
+				B42DE58027E0B420009711F4 /* SwiftGen */,
 				B4260D9B27E0B06A00797B43 /* SwiftLint */,
 				B4EE256127E0A73E0032D511 /* Sources */,
 				B4EE256227E0A73E0032D511 /* Frameworks */,
@@ -150,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4EE257527E0A7400032D511 /* LaunchScreen.storyboard in Resources */,
-				B4EE257227E0A7400032D511 /* Assets.xcassets in Resources */,
+				B4E659D527E0C7DC00B0CC4B /* Localizable.strings in Resources */,
+				B4E659D627E0C7DC00B0CC4B /* Colors.txt in Resources */,
+				B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */,
+				B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +269,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
+		B42DE58027E0B420009711F4 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,6 +296,10 @@
 			files = (
 				B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */,
 				B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */,
+				B4E659D127E0C7DC00B0CC4B /* Strings.swift in Sources */,
+				B4E659D427E0C7DC00B0CC4B /* Colors.swift in Sources */,
+				B4E659D227E0C7DC00B0CC4B /* Assets.swift in Sources */,
+				B4E659D327E0C7DC00B0CC4B /* Fonts.swift in Sources */,
 				B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
