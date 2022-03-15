@@ -1,0 +1,4 @@
+target 'AppStructure' do
+platform :ios, '12.0'
+pod 'SwiftLint', '~> 0.45.0'
+end
