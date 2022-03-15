@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AppStructure
 //
-//  Created by Ahmad Abdulrady on 15/03/2022.
+//  Created by Ahmad Abdulrady
 //
 
 import UIKit
