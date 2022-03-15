@@ -125,6 +125,115 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		B4E659D827E0D2B700B0CC4B /* AppDelegate + SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE256827E0A73E0032D511 /* AppDelegate.swift */,
+				B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */,
+			);
+			path = "AppDelegate + SceneDelegate";
+			sourceTree = "<group>";
+		};
+		B4E659D927E0D2FF00B0CC4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4E659DA27E0D30C00B0CC4B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		B4E659DB27E0D31A00B0CC4B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659DF27E0D5B400B0CC4B /* Views */,
+				B4E659DE27E0D5AB00B0CC4B /* Types */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		B4E659DC27E0D32F00B0CC4B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE256C27E0A73E0032D511 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B4E659DD27E0D4BF00B0CC4B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659E527E0DD7100B0CC4B /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B4E659DE27E0D5AB00B0CC4B /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659E327E0D6FA00B0CC4B /* Classes */,
+				B4E659E227E0D6F200B0CC4B /* Structs */,
+				B4E659E127E0D6EB00B0CC4B /* Enums */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		B4E659DF27E0D5B400B0CC4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4E659E027E0D64500B0CC4B /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		B4E659E127E0D6EB00B0CC4B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B4E659E227E0D6F200B0CC4B /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		B4E659E327E0D6FA00B0CC4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4E659E427E0DCFA00B0CC4B /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE257327E0A7400032D511 /* LaunchScreen.storyboard */,
+				B4EE257627E0A7400032D511 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		B4E659E527E0DD7100B0CC4B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		B4EE255C27E0A73E0032D511 = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +256,15 @@
 		B4EE256727E0A73E0032D511 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
+				B4E659E427E0DCFA00B0CC4B /* SupportFiles */,
+				B4E659E027E0D64500B0CC4B /* Configurations */,
+				B4E659D827E0D2B700B0CC4B /* AppDelegate + SceneDelegate */,
+				B4E659DA27E0D30C00B0CC4B /* Extentions */,
+				B4E659DD27E0D4BF00B0CC4B /* Managers */,
 				B4E659C027E0C7DC00B0CC4B /* Resources */,
-				B4EE256827E0A73E0032D511 /* AppDelegate.swift */,
-				B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */,
-				B4EE256C27E0A73E0032D511 /* ViewController.swift */,
-				B4EE257327E0A7400032D511 /* LaunchScreen.storyboard */,
-				B4EE257627E0A7400032D511 /* Info.plist */,
+				B4E659DB27E0D31A00B0CC4B /* Custom */,
+				B4E659D927E0D2FF00B0CC4B /* Models */,
+				B4E659DC27E0D32F00B0CC4B /* Scenes */,
 			);
 			path = AppStructure;
 			sourceTree = "<group>";
