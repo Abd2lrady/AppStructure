@@ -15,6 +15,14 @@
 		B4E659D527E0C7DC00B0CC4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4E659CB27E0C7DC00B0CC4B /* Localizable.strings */; };
 		B4E659D627E0C7DC00B0CC4B /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4E659CD27E0C7DC00B0CC4B /* Colors.txt */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
+		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
+		B4E659FE27E1E54B00B0CC4B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E927E1E54B00B0CC4B /* NetworkManager.swift */; };
+		B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659EA27E1E54B00B0CC4B /* NetworkDefaults.swift */; };
+		B4E65A0027E1E54B00B0CC4B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659EB27E1E54B00B0CC4B /* NetworkError.swift */; };
+		B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659F727E1E54B00B0CC4B /* Reachability.swift */; };
+		B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659F827E1E54B00B0CC4B /* NetworkMonitor.swift */; };
+		B4E65A0927E1E54B00B0CC4B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659FA27E1E54B00B0CC4B /* APIResponse.swift */; };
+		B4E65A0A27E1E54B00B0CC4B /* NetworkManger+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659FC27E1E54B00B0CC4B /* NetworkManger+Service.swift */; };
 		B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256827E0A73E0032D511 /* AppDelegate.swift */; };
 		B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */; };
 		B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE256C27E0A73E0032D511 /* ViewController.swift */; };
@@ -34,6 +42,14 @@
 		B4E659CB27E0C7DC00B0CC4B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		B4E659CD27E0C7DC00B0CC4B /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticHeaderPlugin.swift; sourceTree = "<group>"; };
+		B4E659E927E1E54B00B0CC4B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B4E659EA27E1E54B00B0CC4B /* NetworkDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDefaults.swift; sourceTree = "<group>"; };
+		B4E659EB27E1E54B00B0CC4B /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B4E659F727E1E54B00B0CC4B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B4E659F827E1E54B00B0CC4B /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		B4E659FA27E1E54B00B0CC4B /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		B4E659FC27E1E54B00B0CC4B /* NetworkManger+Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManger+Service.swift"; sourceTree = "<group>"; };
 		B4EE256527E0A73E0032D511 /* AppStructure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStructure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4EE256827E0A73E0032D511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,7 +184,7 @@
 		B4E659DD27E0D4BF00B0CC4B /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				B4E659E527E0DD7100B0CC4B /* Network */,
+				B4E659E627E1E54B00B0CC4B /* Network */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -227,11 +243,59 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
-		B4E659E527E0DD7100B0CC4B /* Network */ = {
+		B4E659E627E1E54B00B0CC4B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659F627E1E54B00B0CC4B /* NetworkMonitor */,
+				B4E659E727E1E54B00B0CC4B /* Core */,
+				B4E659EC27E1E54B00B0CC4B /* APITargets */,
+				B4E659F927E1E54B00B0CC4B /* BaseModel */,
+				B4E659FB27E1E54B00B0CC4B /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4E659E727E1E54B00B0CC4B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */,
+				B4E659E927E1E54B00B0CC4B /* NetworkManager.swift */,
+				B4E659EA27E1E54B00B0CC4B /* NetworkDefaults.swift */,
+				B4E659EB27E1E54B00B0CC4B /* NetworkError.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B4E659EC27E1E54B00B0CC4B /* APITargets */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Network;
+			path = APITargets;
+			sourceTree = "<group>";
+		};
+		B4E659F627E1E54B00B0CC4B /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659F727E1E54B00B0CC4B /* Reachability.swift */,
+				B4E659F827E1E54B00B0CC4B /* NetworkMonitor.swift */,
+			);
+			path = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		B4E659F927E1E54B00B0CC4B /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659FA27E1E54B00B0CC4B /* APIResponse.swift */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		B4E659FB27E1E54B00B0CC4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B4E659FC27E1E54B00B0CC4B /* NetworkManger+Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		B4EE255C27E0A73E0032D511 = {
@@ -406,12 +470,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E659FE27E1E54B00B0CC4B /* NetworkManager.swift in Sources */,
 				B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */,
 				B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */,
 				B4E659D127E0C7DC00B0CC4B /* Strings.swift in Sources */,
+				B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */,
 				B4E659D427E0C7DC00B0CC4B /* Colors.swift in Sources */,
 				B4E659D227E0C7DC00B0CC4B /* Assets.swift in Sources */,
+				B4E65A0A27E1E54B00B0CC4B /* NetworkManger+Service.swift in Sources */,
+				B4E65A0927E1E54B00B0CC4B /* APIResponse.swift in Sources */,
 				B4E659D327E0C7DC00B0CC4B /* Fonts.swift in Sources */,
+				B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */,
+				B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */,
+				B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */,
+				B4E65A0027E1E54B00B0CC4B /* NetworkError.swift in Sources */,
 				B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -536,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -555,7 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppStructure/Info.plist;
+				INFOPLIST_FILE = AppStructure/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -582,7 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AppStructure/Info.plist;
+				INFOPLIST_FILE = AppStructure/SupportFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
