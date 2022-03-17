@@ -24,7 +24,7 @@ fonts:
             enumName: Fonts
 
 strings:
-  - inputs: AppStructure/Resources/Strings/Localizable.strings
+  - inputs: AppStructure/Resources/Localization/en.lproj/Localizable.strings
     outputs:
         templateName: structured-swift5
         output: AppStructure/Resources/Generated/Localization.swift
