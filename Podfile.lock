@@ -6,22 +6,28 @@ PODS:
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
 
 DEPENDENCIES:
   - AlamofireImage (~> 4.1)
   - Moya (~> 15.0)
+  - NVActivityIndicatorView (~> 5.1.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
     - Moya
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
 
-PODFILE CHECKSUM: efaf626754ed3ca79f51ce2cc6997ebd7e30b8c7
+PODFILE CHECKSUM: 41a64495d18e805a700cf5e039ad5873be62dfaf
 
 COCOAPODS: 1.11.2
