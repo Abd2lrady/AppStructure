@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B42DE58127E0B504009711F4 /* swiftgen.yml */; };
+		B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C77527E32F7B00DA3638 /* SceneDelegate+Extension.swift */; };
+		B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C77727E3310000DA3638 /* AppDelegate+Extension.swift */; };
 		B4E659D127E0C7DC00B0CC4B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C227E0C7DC00B0CC4B /* Strings.swift */; };
 		B4E659D227E0C7DC00B0CC4B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C327E0C7DC00B0CC4B /* Assets.swift */; };
 		B4E659D327E0C7DC00B0CC4B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659C527E0C7DC00B0CC4B /* Fonts.swift */; };
@@ -35,6 +37,8 @@
 		397BF533234D6F138C938E8B /* Pods-AppStructure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.release.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.release.xcconfig"; sourceTree = "<group>"; };
 		78E679DC4F7631E1292EBAA4 /* Pods-AppStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.debug.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.debug.xcconfig"; sourceTree = "<group>"; };
 		B42DE58127E0B504009711F4 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		B463C77527E32F7B00DA3638 /* SceneDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+Extension.swift"; sourceTree = "<group>"; };
+		B463C77727E3310000DA3638 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
 		B4E659C227E0C7DC00B0CC4B /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		B4E659C327E0C7DC00B0CC4B /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		B4E659C527E0C7DC00B0CC4B /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 			children = (
 				B4EE256827E0A73E0032D511 /* AppDelegate.swift */,
 				B4EE256A27E0A73E0032D511 /* SceneDelegate.swift */,
+				B463C77527E32F7B00DA3638 /* SceneDelegate+Extension.swift */,
+				B463C77727E3310000DA3638 /* AppDelegate+Extension.swift */,
 			);
 			path = "AppDelegate + SceneDelegate";
 			sourceTree = "<group>";
@@ -480,6 +486,8 @@
 				B4E65A0A27E1E54B00B0CC4B /* NetworkManger+Service.swift in Sources */,
 				B4E65A0927E1E54B00B0CC4B /* APIResponse.swift in Sources */,
 				B4E659D327E0C7DC00B0CC4B /* Fonts.swift in Sources */,
+				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
+				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
 				B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */,
 				B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */,
 				B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */,
