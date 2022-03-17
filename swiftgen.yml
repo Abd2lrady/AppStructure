@@ -27,9 +27,9 @@ strings:
   - inputs: AppStructure/Resources/Strings/Localizable.strings
     outputs:
         templateName: structured-swift5
-        output: AppStructure/Resources/Generated/Strings.swift
+        output: AppStructure/Resources/Generated/Localization.swift
         params:
-            enumName: Strings
+            enumName: Localization
 
 
 
