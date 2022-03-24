@@ -9,24 +9,31 @@ import UIKit
 import NVActivityIndicatorView
 
 class ViewController: UIViewController {
+    @IBOutlet private weak var label: UILabel!
+    
     var indicator: NVActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .green
+        view.backgroundColor = UIColor(hexCode: "0xff7f50")
         testLabel()
         testIndicator()
         indicator?.startAnimating()
+        setToast(message: "hello", messageFont: .systemFont(ofSize: 20))
     }
     
     func testLabel() {
-        let label = UILabel()
-        view.addSubview(label)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                                     label.centerYAnchor.constraint(equalTo: view.centerYAnchor)])
-        label.text = NSLocalizedString(Localization.title, comment: "")
+        // label.text = NSLocalizedString(Localization.title, comment: "")
+        label.text = Localization.title.localized
         label.font = UIFont(font: Fonts._29LTAzer.bold, size: 20)
+        // label.setCorners(with: 30)
+         label.setCorners(with: 30, corners: .layerMinXMinYCorner)
+        // label.setRounded()
+        // label.setCorners()
+        label.setShadow()
+        label.setBorders()
+        label.setShake()
     }
     
     func testIndicator() {
