@@ -80,4 +80,22 @@ extension UIView {
                                                       y: self.center.y))
         self.layer.add(shakeLayer, forKey: "position")
     }
+    
+    func loadNib() -> UIView? {
+        let nib = UINib(nibName: Self.getName, bundle: .main)
+        let nibViews = nib.instantiate(withOwner: self)
+        guard let view = nibViews[0] as? UIView
+        else { fatalError("can`t load view from nib \(Self.getName)") }
+        
+        self.addSubview(view)
+        self.clipsToBounds = true
+        
+        view.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([view.topAnchor.constraint(equalTo: self.topAnchor),
+                                     view.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+                                     view.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+                                     view.trailingAnchor.constraint(equalTo: self.trailingAnchor)
+                                    ])
+        return view
+    }
 }

@@ -39,4 +39,9 @@ extension UIViewController {
             label.removeFromSuperview()
         }
     }
+    
+    func hideNavigationBar() {
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.clipsToBounds = true
+    }
 }

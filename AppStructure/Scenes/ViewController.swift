@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         testIndicator()
         indicator?.startAnimating()
         setToast(message: "hello", messageFont: .systemFont(ofSize: 20))
+        print(ViewController.getName)
     }
     
     func testLabel() {
