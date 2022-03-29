@@ -1,7 +1,8 @@
 PODS:
   - Alamofire (5.4.4)
-  - AlamofireImage (4.2.0):
-    - Alamofire (~> 5.4)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - IQKeyboardManagerSwift (6.3.0)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
@@ -11,23 +12,26 @@ PODS:
   - NVActivityIndicatorView/Base (5.1.1)
 
 DEPENDENCIES:
-  - AlamofireImage (~> 4.1)
-  - Moya (~> 15.0)
-  - NVActivityIndicatorView (~> 5.1.1)
+  - AlamofireImage (= 4.1)
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - Moya (= 15.0)
+  - NVActivityIndicatorView (= 5.1.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - IQKeyboardManagerSwift
     - Moya
     - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
-  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
 
-PODFILE CHECKSUM: 41a64495d18e805a700cf5e039ad5873be62dfaf
+PODFILE CHECKSUM: 01561d0839ba789f6bd7645220da193f3eab373a
 
 COCOAPODS: 1.11.2

@@ -376,6 +376,7 @@
 				B4EE256127E0A73E0032D511 /* Sources */,
 				B4EE256227E0A73E0032D511 /* Frameworks */,
 				B4EE256327E0A73E0032D511 /* Resources */,
+				F4ED55AB634264872F1E16EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -494,6 +495,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "swiftgen\n";
+		};
+		F4ED55AB634264872F1E16EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStructure/Pods-AppStructure-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStructure/Pods-AppStructure-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppStructure/Pods-AppStructure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
