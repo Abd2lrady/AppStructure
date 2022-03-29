@@ -44,4 +44,17 @@ extension UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.clipsToBounds = true
     }
+    
+    func embedViewController(childVC: UIViewController) {
+        self.addChild(childVC)
+        view.addSubview(childVC.view)
+        childVC.didMove(toParent: self)
+    }
+    
+    func unembedViewController(childVC: UIViewController) {
+        guard self.children.contains(childVC) else { return }
+        childVC.willMove(toParent: nil)
+        self.view.removeFromSuperview()
+        self.removeFromParent()
+    }
 }

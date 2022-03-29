@@ -80,7 +80,7 @@ extension UIView {
                                                       y: self.center.y))
         self.layer.add(shakeLayer, forKey: "position")
     }
-    
+    @discardableResult
     func loadNib() -> UIView? {
         let nib = UINib(nibName: Self.getName, bundle: .main)
         let nibViews = nib.instantiate(withOwner: self)

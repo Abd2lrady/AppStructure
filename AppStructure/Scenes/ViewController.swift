@@ -34,7 +34,10 @@ class ViewController: UIViewController {
         // label.setCorners()
         label.setShadow()
         label.setBorders()
-        label.setShake()
+        label.setShake(duration: 0.1,
+                       repeatCount: 5,
+                       autoReverse: true,
+                       shakeOffset: 20)
     }
     
     func testIndicator() {
