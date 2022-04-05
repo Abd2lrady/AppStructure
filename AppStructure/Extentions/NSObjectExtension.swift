@@ -8,7 +8,7 @@
 import Foundation
 
 extension NSObject {
-    static var getName: String {
+    static var className: String {
         String(describing: self)
     }
 }
