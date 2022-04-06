@@ -6,14 +6,21 @@ xcassets:
         output: AppStructure/Resources/Generated/Assets.swift
         params:
             enumName: Assets
-
-colors:
-  - inputs: AppStructure/Resources/Colors/Colors.txt
+            
+  - inputs: AppStructure/Resources/Colors
     outputs:
         templateName: swift5
         output: AppStructure/Resources/Generated/Colors.swift
         params:
             enumName: Colors
+
+#colors:
+# - inputs: AppStructure/Resources/Colors/Colors.txt
+#   outputs:
+#       templateName: swift5
+#       output: AppStructure/Resources/Generated/Colors.swift
+#       params:
+#           enumName: Colors
 
 fonts:
   - inputs: AppStructure/Resources/Fonts
@@ -26,7 +33,7 @@ fonts:
 strings:
   - inputs: AppStructure/Resources/Localization/en.lproj/Localizable.strings
     outputs:
-        templateName: structured-swift5
+        templateName: structured-swift4
         output: AppStructure/Resources/Generated/Localization.swift
         params:
             enumName: Localization

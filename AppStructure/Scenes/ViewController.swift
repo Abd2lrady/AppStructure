@@ -1,4 +1,3 @@
-//
 //  ViewController.swift
 //  AppStructure
 //
@@ -16,17 +15,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = UIColor(hexCode: "0xff7f50")
+//        view.backgroundColor = UIColor(hexCode: "0xff7f50")
+        view.backgroundColor = Colors.background.color
         testLabel()
         testIndicator()
         indicator?.startAnimating()
         setToast(message: "hello", messageFont: .systemFont(ofSize: 20))
-        print(ViewController.getName)
+        print(ViewController.className)
     }
     
     func testLabel() {
-        // label.text = NSLocalizedString(Localization.title, comment: "")
-        label.text = Localization.title.localized
+         label.text = NSLocalizedString("mainVC.hello", comment: "")
+//         label.text = BartyCrouch.translate(key: "mainVC.helloLabel",
+//                                            translations: [.english: "Welcome"])
         label.font = UIFont(font: Fonts._29LTAzer.bold, size: 20)
         // label.setCorners(with: 30)
          label.setCorners(with: 30, corners: .layerMinXMinYCorner)

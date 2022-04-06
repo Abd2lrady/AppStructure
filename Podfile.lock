@@ -10,12 +10,16 @@ PODS:
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
   - NVActivityIndicatorView/Base (5.1.1)
+  - SwiftMessages (9.0.5):
+    - SwiftMessages/App (= 9.0.5)
+  - SwiftMessages/App (9.0.5)
 
 DEPENDENCIES:
   - AlamofireImage (= 4.1)
   - IQKeyboardManagerSwift (= 6.3.0)
   - Moya (= 15.0)
   - NVActivityIndicatorView (= 5.1.1)
+  - SwiftMessages (= 9.0.5)
 
 SPEC REPOS:
   trunk:
@@ -24,6 +28,7 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - Moya
     - NVActivityIndicatorView
+    - SwiftMessages
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
@@ -31,7 +36,8 @@ SPEC CHECKSUMS:
   IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SwiftMessages: 9cca50659fa22bb523b4dd2a958d4442e843a354
 
-PODFILE CHECKSUM: 15e38fc5d17eadde529b1cb7ff89f47e12a4026b
+PODFILE CHECKSUM: fee7f36ad5c5c10c6e1f30b4bdf727f8c7c07131
 
 COCOAPODS: 1.11.2

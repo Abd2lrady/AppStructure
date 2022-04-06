@@ -1,3 +1,6 @@
+/* No comment provided by engineer. */
+"mainVC.hello" = "Hello";
+
 /* 
   Localizable.strings
   AppStructure
@@ -5,5 +8,4 @@
   Created by Ahmad Abdulrady
   
 */
-
 "Title" = "Hello";

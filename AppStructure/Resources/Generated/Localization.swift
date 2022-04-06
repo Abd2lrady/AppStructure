@@ -12,6 +12,11 @@ import Foundation
 internal enum Localization {
   /// Hello
   internal static let title = Localization.tr("Localizable", "Title")
+
+  internal enum MainVC {
+    /// Hello
+    internal static let hello = Localization.tr("Localizable", "mainVC.hello")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

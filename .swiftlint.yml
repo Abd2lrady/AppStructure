@@ -33,12 +33,7 @@ opt_in_rules:
   - vertical_parameter_alignment_on_call
   - multiline_parameters
   - notification_center_detachment
-
-
-file_name:
-  excluded:
-    - main.swift
-
+  
 force_cast: error 
 force_try: error
 force_unwrapping: error
