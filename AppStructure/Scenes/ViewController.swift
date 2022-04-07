@@ -25,9 +25,7 @@ class ViewController: UIViewController {
     }
     
     func testLabel() {
-         label.text = NSLocalizedString("mainVC.hello", comment: "")
-//         label.text = BartyCrouch.translate(key: "mainVC.helloLabel",
-//                                            translations: [.english: "Welcome"])
+        label.text = L10n.Main.helloLabel
         label.font = UIFont(font: Fonts._29LTAzer.bold, size: 20)
         // label.setCorners(with: 30)
          label.setCorners(with: 30, corners: .layerMinXMinYCorner)

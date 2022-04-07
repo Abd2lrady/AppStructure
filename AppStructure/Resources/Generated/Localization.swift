@@ -9,13 +9,13 @@ import Foundation
 
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
-internal enum Localization {
+internal enum L10n {
   /// Hello
-  internal static let title = Localization.tr("Localizable", "Title")
+  internal static let title = L10n.tr("Localizable", "Title")
 
-  internal enum MainVC {
-    /// Hello
-    internal static let hello = Localization.tr("Localizable", "mainVC.hello")
+  internal enum Main {
+    /// hi
+    internal static let helloLabel = L10n.tr("Localizable", "main.hello-label")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
@@ -23,7 +23,7 @@ internal enum Localization {
 
 // MARK: - Implementation Details
 
-extension Localization {
+extension L10n {
   private static func tr(_ table: String, _ key: String, _ args: CVarArg...) -> String {
     let format = BundleToken.bundle.localizedString(forKey: key, value: nil, table: table)
     return String(format: format, locale: Locale.current, arguments: args)

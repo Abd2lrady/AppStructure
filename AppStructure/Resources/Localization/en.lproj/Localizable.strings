@@ -1,5 +1,4 @@
-/* No comment provided by engineer. */
-"mainVC.hello" = "Hello";
+"main.hello-label" = "hi";
 
 /* 
   Localizable.strings

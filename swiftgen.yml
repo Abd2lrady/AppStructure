@@ -35,8 +35,8 @@ strings:
     outputs:
         templateName: structured-swift4
         output: AppStructure/Resources/Generated/Localization.swift
-        params:
-            enumName: Localization
+        #params:
+           # enumName: Localization
 
 
 

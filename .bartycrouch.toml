@@ -1,5 +1,5 @@
 [update]
-tasks = ["interfaces", "code" , "transform", "normalize"]
+tasks = ["interfaces", "transform" , "normalize"]
 
 [update.interfaces]
 paths = ["."]
@@ -20,11 +20,11 @@ plistArguments = true
 ignoreKeys = ["#bartycrouch-ignore!", "#bc-ignore!", "#i!"]
 
 [update.transform]
-codePaths = ["."]
+codePaths = ["AppStructure/Scenes"]
 subpathsToIgnore = [".git", "carthage", "pods", "build", ".build", "docs"]
 localizablePaths = ["."]
 transformer = "swiftgenStructured"
-supportedLanguageEnumPath = "."
+supportedLanguageEnumPath = "AppStructure/Resources/BartyCrouch"
 typeName = "BartyCrouch"
 translateMethodName = "translate"
 
