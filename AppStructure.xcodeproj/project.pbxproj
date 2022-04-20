@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A73A8B5741BD06B947B0861 /* libPods-AppStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E88BC5144A61EFAE826AE75 /* libPods-AppStructure.a */; };
 		B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B42DE58127E0B504009711F4 /* swiftgen.yml */; };
+		B445BE7928103CCE005D87DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B445BE7B28103CCE005D87DA /* ViewController.xib */; };
 		B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = B44880C727FDC23B003D6406 /* .bartycrouch.toml */; };
 		B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44880C927FDC7CA003D6406 /* Colors.xcassets */; };
 		B44880D027FDCBF1003D6406 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44880CD27FDCBF1003D6406 /* Colors.swift */; };
@@ -21,13 +22,11 @@
 		B47249E727FC675300AD8626 /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47249E627FC675300AD8626 /* BartyCrouch.swift */; };
 		B480565C27EB1C3000B41124 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565B27EB1C3000B41124 /* UIColorExtension.swift */; };
 		B480565E27EB5E6100B41124 /* UIViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565D27EB5E6100B41124 /* UIViewExtenstion.swift */; };
-		B480566027EB61F600B41124 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B480565F27EB61F600B41124 /* ViewController.xib */; };
 		B480566227EB92CD00B41124 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566127EB92CD00B41124 /* StringExtension.swift */; };
 		B480566427EC4F6900B41124 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566327EC4F6900B41124 /* UIViewControllerExtension.swift */; };
 		B480566627EC5AD500B41124 /* UIImageViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566527EC5AD500B41124 /* UIImageViewExtenstion.swift */; };
 		B480566827EC5CAB00B41124 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObjectExtension.swift */; };
 		B480566A27EC5DCC00B41124 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566927EC5DCC00B41124 /* UIBarButtonItemExtension.swift */; };
-		B4E659D627E0C7DC00B0CC4B /* ColorsHex.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4E659CD27E0C7DC00B0CC4B /* ColorsHex.txt */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
 		B4E659FE27E1E54B00B0CC4B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E927E1E54B00B0CC4B /* NetworkManager.swift */; };
@@ -48,6 +47,9 @@
 		5E88BC5144A61EFAE826AE75 /* libPods-AppStructure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppStructure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBA2F32049A97A55C291B0C /* Pods-AppStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.debug.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.debug.xcconfig"; sourceTree = "<group>"; };
 		B42DE58127E0B504009711F4 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		B445BE7A28103CCE005D87DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B445BE7F28103CDD005D87DA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ViewController.strings; sourceTree = "<group>"; };
+		B445BE8128103D30005D87DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B44880C727FDC23B003D6406 /* .bartycrouch.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
 		B44880C927FDC7CA003D6406 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B44880CD27FDCBF1003D6406 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -65,13 +67,11 @@
 		B47249E627FC675300AD8626 /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
 		B480565B27EB1C3000B41124 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		B480565D27EB5E6100B41124 /* UIViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenstion.swift; sourceTree = "<group>"; };
-		B480565F27EB61F600B41124 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		B480566127EB92CD00B41124 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		B480566327EC4F6900B41124 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		B480566527EC5AD500B41124 /* UIImageViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtenstion.swift; sourceTree = "<group>"; };
 		B480566727EC5CAB00B41124 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 		B480566927EC5DCC00B41124 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
-		B4E659CD27E0C7DC00B0CC4B /* ColorsHex.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ColorsHex.txt; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticHeaderPlugin.swift; sourceTree = "<group>"; };
 		B4E659E927E1E54B00B0CC4B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -118,13 +118,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B44880C527FD9FC2003D6406 /* BC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BC;
-			sourceTree = "<group>";
-		};
 		B44880C627FDADA2003D6406 /* BartyCrouch */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +131,6 @@
 			children = (
 				B4EE257627E0A7400032D511 /* Info.plist */,
 				B44880C627FDADA2003D6406 /* BartyCrouch */,
-				B4E659C127E0C7DC00B0CC4B /* Generated */,
 				B4E659CA27E0C7DC00B0CC4B /* Localization */,
 				B4E659CC27E0C7DC00B0CC4B /* Colors */,
 				B4E659CE27E0C7DC00B0CC4B /* Fonts */,
@@ -147,20 +139,10 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		B4E659C127E0C7DC00B0CC4B /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				B44880D327FDCE25003D6406 /* Localization.swift */,
-				B44880CE27FDCBF1003D6406 /* Assets.swift */,
-				B44880CD27FDCBF1003D6406 /* Colors.swift */,
-				B44880CF27FDCBF1003D6406 /* Fonts.swift */,
-			);
-			path = Generated;
-			sourceTree = "<group>";
-		};
 		B4E659CA27E0C7DC00B0CC4B /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				B44880D327FDCE25003D6406 /* Localization.swift */,
 				B463C78727E3427900DA3638 /* Localizable.strings */,
 			);
 			path = Localization;
@@ -169,7 +151,7 @@
 		B4E659CC27E0C7DC00B0CC4B /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				B4E659CD27E0C7DC00B0CC4B /* ColorsHex.txt */,
+				B44880CD27FDCBF1003D6406 /* Colors.swift */,
 				B44880C927FDC7CA003D6406 /* Colors.xcassets */,
 			);
 			path = Colors;
@@ -178,6 +160,7 @@
 		B4E659CE27E0C7DC00B0CC4B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B44880CF27FDCBF1003D6406 /* Fonts.swift */,
 				B463C77A27E3342700DA3638 /* 29LT Azer-Bold.OTF */,
 				B463C77927E3342700DA3638 /* 29LT Azer-Medium.OTF */,
 				B463C77B27E3342700DA3638 /* 29LT Azer-Regular.OTF */,
@@ -188,6 +171,7 @@
 		B4E659CF27E0C7DC00B0CC4B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B44880CE27FDCBF1003D6406 /* Assets.swift */,
 				B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -238,7 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				B4EE256C27E0A73E0032D511 /* ViewController.swift */,
-				B480565F27EB61F600B41124 /* ViewController.xib */,
+				B445BE7B28103CCE005D87DA /* ViewController.xib */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -375,7 +359,6 @@
 		B4EE256727E0A73E0032D511 /* AppStructure */ = {
 			isa = PBXGroup;
 			children = (
-				B44880C527FD9FC2003D6406 /* BC */,
 				B4E65A0B27E31F0E00B0CC4B /* StoryBoard */,
 				B4E659D827E0D2B700B0CC4B /* AppDelegate + SceneDelegate */,
 				B4E659DA27E0D30C00B0CC4B /* Extentions */,
@@ -454,9 +437,8 @@
 			files = (
 				B463C78527E3427900DA3638 /* Localizable.strings in Resources */,
 				B4EE257527E0A7400032D511 /* LaunchScreen.storyboard in Resources */,
-				B4E659D627E0C7DC00B0CC4B /* ColorsHex.txt in Resources */,
+				B445BE7928103CCE005D87DA /* ViewController.xib in Resources */,
 				B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */,
-				B480566027EB61F600B41124 /* ViewController.xib in Resources */,
 				B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */,
 				B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */,
 				B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */,
@@ -597,6 +579,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B445BE7B28103CCE005D87DA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B445BE7A28103CCE005D87DA /* Base */,
+				B445BE7F28103CDD005D87DA /* ar */,
+				B445BE8128103D30005D87DA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
 		B463C78727E3427900DA3638 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
