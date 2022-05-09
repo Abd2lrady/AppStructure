@@ -1,5 +1,5 @@
 //
-//  UIColor+.swift
+//  UIColorExtenstion.swift
 //  AppStructure
 //
 //  Created by Ahmad Abdulrady

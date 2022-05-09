@@ -20,8 +20,7 @@ class ViewController: UIViewController {
         testLabel()
         testIndicator()
         indicator?.startAnimating()
-        setToast(message: "hello",
-                 messageFont: .systemFont(ofSize: 20))
+        
         print(ViewController.className)
     }
     
@@ -31,12 +30,12 @@ class ViewController: UIViewController {
          label.setCorners(with: 30, corners: .layerMinXMinYCorner)
         // label.setRounded()
         // label.setCorners()
-        label.setShadow()
-        label.setBorders()
-        label.setShake(duration: 0.1,
-                       repeatCount: 5,
-                       autoReverse: true,
-                       shakeOffset: 20)
+        label.setShadow(radius: 5,
+                        color: .black,
+                        opacity: 0.6,
+                        offset: CGSize(width: 5, height: 5))
+        label.setBorders(with: 5,
+                         color: .red)
     }
     
     func testIndicator() {
