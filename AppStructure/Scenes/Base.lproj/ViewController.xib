@@ -20,16 +20,32 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD0-ST-Cug">
-                    <rect key="frame" x="58" y="299" width="232" height="137"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD0-ST-Cug">
+                    <rect key="frame" x="100" y="294" width="214" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="iB6-PA-MXO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="45"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Okd-j4-aC7">
+                    <rect key="frame" x="20" y="808" width="374" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Okd-j4-aC7" secondAttribute="trailing" constant="20" id="6VD-iy-Oc6"/>
+                <constraint firstItem="LD0-ST-Cug" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="250" id="8SB-xk-blq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Okd-j4-aC7" secondAttribute="bottom" constant="20" id="EN9-vA-jqP"/>
+                <constraint firstItem="Okd-j4-aC7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LD0-ST-Cug" secondAttribute="bottom" constant="350" id="dLm-yD-mZC"/>
+                <constraint firstItem="Okd-j4-aC7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="fJZ-JQ-mwc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LD0-ST-Cug" secondAttribute="trailing" constant="100" id="gP5-em-xPm"/>
+                <constraint firstItem="LD0-ST-Cug" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="100" id="nP8-8f-0bC"/>
+            </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
         </view>
     </objects>
