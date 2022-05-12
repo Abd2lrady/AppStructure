@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        view.backgroundColor = UIColor(hexCode: "0xff7f50")
-        view.backgroundColor = Colors.background.color
+        view.backgroundColor = .background
         testLabel()
         testMessage()
         testIndicator()
@@ -45,7 +45,8 @@ class ViewController: UIViewController {
     func testLabel() {
         // label.font = UIFont(font: Fonts._29LTAzer.bold, size: 50)
         // label.setCorners(with: 30)
-         label.setCorners(with: 30, corners: .layerMinXMinYCorner)
+        label.textColor = .labelColor
+        label.setCorners(with: 30, corners: .layerMinXMinYCorner)
         // label.setRounded()
         // label.setCorners()
         label.setShadow(radius: 5,
