@@ -10,37 +10,21 @@ import SwiftMessages
 
 class ViewController: UIViewController {
     @IBOutlet private weak var label: UILabel!
-    
-    var indicator: NVActivityIndicatorView!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-//        view.backgroundColor = UIColor(hexCode: "0xff7f50")
         view.backgroundColor = .background
         testLabel()
         testMessage()
         testIndicator()
-        indicator?.startAnimating()
-        
         print(ViewController.className)
     }
     func testMessage() {
-        let view = MessageView.viewFromNib(layout: .cardView)
-        view.configureTheme(.success)
-        view.configureContent(title: "Hello",
-                              body: "This is Test Message",
-                              iconImage: nil,
-                              iconText: nil,
-                              buttonImage: .checkmark,
-                              buttonTitle: "Ok") { _ in
-            // print("Msg Button Tapped")
+        showMessage(title: "hello", body: "Test MSG") {
             SwiftMessages.hide()
+            self.hideIndicator()
         }
-        
-        var config = SwiftMessages.Config()
-        config.duration = .forever
-        SwiftMessages.show(config: config, view: view)
     }
     func testLabel() {
         // label.font = UIFont(font: Fonts._29LTAzer.bold, size: 50)
@@ -58,13 +42,6 @@ class ViewController: UIViewController {
     }
     
     func testIndicator() {
-        indicator = NVActivityIndicatorView(frame: CGRect(x: view.center.x - 100,
-                                                          y: view.center.y - 100,
-                                                          width: 200,
-                                                          height: 200),
-                                            type: .ballClipRotate,
-                                            color: .black,
-                                            padding: 0)
-        view.addSubview(indicator)
+        showIndicator()
     }
 }

@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import NVActivityIndicatorView
 
-extension UIViewController {
+extension UIViewController: BaseVCProtocol {
     
     func embedViewController(childVC: UIViewController) {
         self.addChild(childVC)
