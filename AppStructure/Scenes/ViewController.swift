@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .background
-        testLabel()
+        // testLabel()
         testMessage()
         testIndicator()
         print(ViewController.className)

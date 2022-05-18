@@ -10,6 +10,7 @@
 		2A73A8B5741BD06B947B0861 /* libPods-AppStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E88BC5144A61EFAE826AE75 /* libPods-AppStructure.a */; };
 		B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B42DE58127E0B504009711F4 /* swiftgen.yml */; };
 		B44145932831068D006A0312 /* BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44145922831068D006A0312 /* BaseVCProtocol.swift */; };
+		B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */; };
 		B445BE8328104021005D87DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445BE8228104021005D87DA /* User.swift */; };
 		B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = B44880C727FDC23B003D6406 /* .bartycrouch.toml */; };
 		B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44880C927FDC7CA003D6406 /* Colors.xcassets */; };
@@ -21,12 +22,12 @@
 		B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C77727E3310000DA3638 /* AppDelegate+Extension.swift */; };
 		B463C78527E3427900DA3638 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B463C78727E3427900DA3638 /* Localizable.strings */; };
 		B47249E727FC675300AD8626 /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47249E627FC675300AD8626 /* BartyCrouch.swift */; };
-		B480565C27EB1C3000B41124 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565B27EB1C3000B41124 /* UIColorExtension.swift */; };
-		B480565E27EB5E6100B41124 /* UIViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565D27EB5E6100B41124 /* UIViewExtenstion.swift */; };
-		B480566427EC4F6900B41124 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566327EC4F6900B41124 /* UIViewControllerExtension.swift */; };
-		B480566627EC5AD500B41124 /* UIImageViewExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566527EC5AD500B41124 /* UIImageViewExtenstion.swift */; };
-		B480566827EC5CAB00B41124 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObjectExtension.swift */; };
-		B49457AA28295FE900F000B2 /* UIViewExtenstion+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49457A928295FE900F000B2 /* UIViewExtenstion+NIB.swift */; };
+		B480565C27EB1C3000B41124 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565B27EB1C3000B41124 /* UIColor.swift */; };
+		B480565E27EB5E6100B41124 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565D27EB5E6100B41124 /* UIView.swift */; };
+		B480566427EC4F6900B41124 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566327EC4F6900B41124 /* UIViewController.swift */; };
+		B480566627EC5AD500B41124 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566527EC5AD500B41124 /* UIImageView.swift */; };
+		B480566827EC5CAB00B41124 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObject.swift */; };
+		B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49457A928295FE900F000B2 /* UIView+NIB.swift */; };
 		B4C2D41A282D12E000188FD6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C2D41C282D12E000188FD6 /* ViewController.xib */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
@@ -51,6 +52,7 @@
 		B44145922831068D006A0312 /* BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCProtocol.swift; sourceTree = "<group>"; };
 		B4414595283106CA006A0312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B441459C2833E241006A0312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
 		B445BE8228104021005D87DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B44880C727FDC23B003D6406 /* .bartycrouch.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
 		B44880C927FDC7CA003D6406 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -67,12 +69,12 @@
 		B463C78627E3427900DA3638 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B463C78827E3428500DA3638 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B47249E627FC675300AD8626 /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
-		B480565B27EB1C3000B41124 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		B480565D27EB5E6100B41124 /* UIViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtenstion.swift; sourceTree = "<group>"; };
-		B480566327EC4F6900B41124 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		B480566527EC5AD500B41124 /* UIImageViewExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtenstion.swift; sourceTree = "<group>"; };
-		B480566727EC5CAB00B41124 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
-		B49457A928295FE900F000B2 /* UIViewExtenstion+NIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewExtenstion+NIB.swift"; sourceTree = "<group>"; };
+		B480565B27EB1C3000B41124 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B480565D27EB5E6100B41124 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		B480566327EC4F6900B41124 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B480566527EC5AD500B41124 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		B480566727EC5CAB00B41124 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		B49457A928295FE900F000B2 /* UIView+NIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
 		B4C2D41B282D12E000188FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 		B4C2D41E282D12E600188FD6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -210,12 +212,13 @@
 		B4E659DA27E0D30C00B0CC4B /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				B480566727EC5CAB00B41124 /* NSObjectExtension.swift */,
-				B480566327EC4F6900B41124 /* UIViewControllerExtension.swift */,
-				B480565B27EB1C3000B41124 /* UIColorExtension.swift */,
-				B480565D27EB5E6100B41124 /* UIViewExtenstion.swift */,
-				B49457A928295FE900F000B2 /* UIViewExtenstion+NIB.swift */,
-				B480566527EC5AD500B41124 /* UIImageViewExtenstion.swift */,
+				B480566727EC5CAB00B41124 /* NSObject.swift */,
+				B480566327EC4F6900B41124 /* UIViewController.swift */,
+				B480565B27EB1C3000B41124 /* UIColor.swift */,
+				B480565D27EB5E6100B41124 /* UIView.swift */,
+				B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */,
+				B49457A928295FE900F000B2 /* UIView+NIB.swift */,
+				B480566527EC5AD500B41124 /* UIImageView.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -498,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "    export PATH=\"$PATH:/opt/homebrew/bin\"\n\n    bartycrouch update -x\n    bartycrouch lint -x\n";
+			shellScript = "    export PATH=\"$PATH:/opt/homebrew/bin\"\n    bartycrouch update -x\n    bartycrouch interfaces -o\n    bartycrouch lint -x\n";
 		};
 		B47249EA27FC852300AD8626 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -567,25 +570,26 @@
 				B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */,
 				B44880D427FDCE25003D6406 /* Localization.swift in Sources */,
 				B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */,
-				B480566827EC5CAB00B41124 /* NSObjectExtension.swift in Sources */,
+				B480566827EC5CAB00B41124 /* NSObject.swift in Sources */,
 				B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */,
 				B47249E727FC675300AD8626 /* BartyCrouch.swift in Sources */,
-				B49457AA28295FE900F000B2 /* UIViewExtenstion+NIB.swift in Sources */,
+				B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */,
 				B4E65A0A27E1E54B00B0CC4B /* NetworkManger+Service.swift in Sources */,
 				B4E65A0927E1E54B00B0CC4B /* APIResponse.swift in Sources */,
-				B480565E27EB5E6100B41124 /* UIViewExtenstion.swift in Sources */,
-				B480566627EC5AD500B41124 /* UIImageViewExtenstion.swift in Sources */,
+				B480565E27EB5E6100B41124 /* UIView.swift in Sources */,
+				B480566627EC5AD500B41124 /* UIImageView.swift in Sources */,
 				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
+				B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */,
 				B44145932831068D006A0312 /* BaseVCProtocol.swift in Sources */,
 				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
 				B44880D227FDCBF1003D6406 /* Fonts.swift in Sources */,
-				B480566427EC4F6900B41124 /* UIViewControllerExtension.swift in Sources */,
+				B480566427EC4F6900B41124 /* UIViewController.swift in Sources */,
 				B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */,
 				B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */,
 				B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */,
 				B4E65A0027E1E54B00B0CC4B /* NetworkError.swift in Sources */,
 				B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */,
-				B480565C27EB1C3000B41124 /* UIColorExtension.swift in Sources */,
+				B480565C27EB1C3000B41124 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
