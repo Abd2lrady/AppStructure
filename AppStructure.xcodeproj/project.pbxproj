@@ -501,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "    export PATH=\"$PATH:/opt/homebrew/bin\"\n    bartycrouch update -x\n    bartycrouch interfaces -o\n    bartycrouch lint -x\n";
+			shellScript = " export PATH=\"$PATH:/opt/homebrew/bin\"\n bartycrouch update -x\n bartycrouch lint -x \n";
 		};
 		B47249EA27FC852300AD8626 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;

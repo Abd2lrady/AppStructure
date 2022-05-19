@@ -1,2 +1,5 @@
-/* Class = "UILabel"; text = "I"; ObjectID = "LD0-ST-Cug"; */
+/* Class = "UILabel"; text = "Hi1"; ObjectID = "LD0-ST-Cug"; */
 "LD0-ST-Cug.text" = "مرحبا";
+
+/* Class = "UILabel"; text = "Hi2"; ObjectID = "wXH-MO-SRd"; */
+"wXH-MO-SRd.text" = "اهلا";

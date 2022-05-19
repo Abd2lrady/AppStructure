@@ -44,4 +44,15 @@ class ViewController: UIViewController {
     func testIndicator() {
         showIndicator()
     }
+    
+    func testBartyCrouchTranslation() {
+        
+        // uncomment the following then build
+//        let _ = BartyCrouch.translate(key: "new-main.title-label",
+//                                      translations: [.english : "Hello",
+//                                                     .arabic : "مرحبا"])
+        // the generated line
+        _ = L10n.NewMain.titleLabel
+
+    }
 }

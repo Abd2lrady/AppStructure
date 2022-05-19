@@ -17,6 +17,7 @@ extension UIView {
                                    .layerMinXMinYCorner,
                                    .layerMaxXMinYCorner,
                                    .layerMinXMaxYCorner]
+            layer.masksToBounds = true
         }
     }
         
