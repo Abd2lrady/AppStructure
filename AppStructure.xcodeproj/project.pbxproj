@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		2A73A8B5741BD06B947B0861 /* libPods-AppStructure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E88BC5144A61EFAE826AE75 /* libPods-AppStructure.a */; };
 		B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = B42DE58127E0B504009711F4 /* swiftgen.yml */; };
-		B44145932831068D006A0312 /* BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44145922831068D006A0312 /* BaseVCProtocol.swift */; };
 		B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */; };
 		B445BE8328104021005D87DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445BE8228104021005D87DA /* User.swift */; };
+		B4462AE5283CD4C000AFD97E /* UIView+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AE4283CD4C000AFD97E /* UIView+LoadingIndicator.swift */; };
+		B4462AE9283CDF2700AFD97E /* LoadingIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */; };
+		B4462AEB283CDF5200AFD97E /* MessageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */; };
+		B4462AED283CDFB200AFD97E /* BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */; };
 		B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = B44880C727FDC23B003D6406 /* .bartycrouch.toml */; };
 		B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44880C927FDC7CA003D6406 /* Colors.xcassets */; };
 		B44880D027FDCBF1003D6406 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44880CD27FDCBF1003D6406 /* Colors.swift */; };
@@ -28,6 +31,8 @@
 		B480566627EC5AD500B41124 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566527EC5AD500B41124 /* UIImageView.swift */; };
 		B480566827EC5CAB00B41124 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObject.swift */; };
 		B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49457A928295FE900F000B2 /* UIView+NIB.swift */; };
+		B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */; };
+		B49A8187283BCB4D00AAF4B3 /* MsgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8186283BCB4D00AAF4B3 /* MsgView.swift */; };
 		B4C2D41A282D12E000188FD6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C2D41C282D12E000188FD6 /* ViewController.xib */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
@@ -49,11 +54,14 @@
 		5E88BC5144A61EFAE826AE75 /* libPods-AppStructure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppStructure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBA2F32049A97A55C291B0C /* Pods-AppStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStructure.debug.xcconfig"; path = "Target Support Files/Pods-AppStructure/Pods-AppStructure.debug.xcconfig"; sourceTree = "<group>"; };
 		B42DE58127E0B504009711F4 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
-		B44145922831068D006A0312 /* BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCProtocol.swift; sourceTree = "<group>"; };
 		B4414595283106CA006A0312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B441459C2833E241006A0312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Inspectable.swift"; sourceTree = "<group>"; };
 		B445BE8228104021005D87DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B4462AE4283CD4C000AFD97E /* UIView+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorProtocol.swift; sourceTree = "<group>"; };
+		B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewProtocol.swift; sourceTree = "<group>"; };
+		B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCProtocol.swift; sourceTree = "<group>"; };
 		B44880C727FDC23B003D6406 /* .bartycrouch.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
 		B44880C927FDC7CA003D6406 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B44880CD27FDCBF1003D6406 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -75,6 +83,8 @@
 		B480566527EC5AD500B41124 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		B480566727EC5CAB00B41124 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		B49457A928295FE900F000B2 /* UIView+NIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
+		B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseVC+BaseVCProtocol.swift"; sourceTree = "<group>"; };
+		B49A8186283BCB4D00AAF4B3 /* MsgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgView.swift; sourceTree = "<group>"; };
 		B4C2D41B282D12E000188FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 		B4C2D41E282D12E600188FD6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,9 +136,30 @@
 		B441459128310659006A0312 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B44145922831068D006A0312 /* BaseVCProtocol.swift */,
+				B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		B4462AE6283CD55D00AFD97E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B480565D27EB5E6100B41124 /* UIView.swift */,
+				B4462AE4283CD4C000AFD97E /* UIView+LoadingIndicator.swift */,
+				B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */,
+				B49457A928295FE900F000B2 /* UIView+NIB.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B4462AE7283CDEF900AFD97E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */,
+				B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */,
+				B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B44880C627FDADA2003D6406 /* BartyCrouch */ = {
@@ -204,6 +235,7 @@
 		B4E659D927E0D2FF00B0CC4B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B4E659F927E1E54B00B0CC4B /* BaseModel */,
 				B445BE8228104021005D87DA /* User.swift */,
 			);
 			path = Models;
@@ -212,12 +244,10 @@
 		B4E659DA27E0D30C00B0CC4B /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				B4462AE6283CD55D00AFD97E /* UIView */,
 				B480566727EC5CAB00B41124 /* NSObject.swift */,
 				B480566327EC4F6900B41124 /* UIViewController.swift */,
 				B480565B27EB1C3000B41124 /* UIColor.swift */,
-				B480565D27EB5E6100B41124 /* UIView.swift */,
-				B441459D2833F8C4006A0312 /* UIView+Inspectable.swift */,
-				B49457A928295FE900F000B2 /* UIView+NIB.swift */,
 				B480566527EC5AD500B41124 /* UIImageView.swift */,
 			);
 			path = Extentions;
@@ -269,6 +299,7 @@
 		B4E659E127E0D6EB00B0CC4B /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				B49A8186283BCB4D00AAF4B3 /* MsgView.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -293,7 +324,6 @@
 				B4E659F627E1E54B00B0CC4B /* NetworkMonitor */,
 				B4E659E727E1E54B00B0CC4B /* Core */,
 				B4E659EC27E1E54B00B0CC4B /* APITargets */,
-				B4E659F927E1E54B00B0CC4B /* BaseModel */,
 				B4E659FB27E1E54B00B0CC4B /* Service */,
 			);
 			path = Network;
@@ -377,6 +407,7 @@
 				B4E659D827E0D2B700B0CC4B /* AppDelegate + SceneDelegate */,
 				B4E659DA27E0D30C00B0CC4B /* Extentions */,
 				B441459128310659006A0312 /* Base */,
+				B4462AE7283CDEF900AFD97E /* Protocols */,
 				B4E659DD27E0D4BF00B0CC4B /* Services */,
 				B4E659C027E0C7DC00B0CC4B /* Resources */,
 				B4E659DB27E0D31A00B0CC4B /* Custom */,
@@ -454,9 +485,9 @@
 				B463C78527E3427900DA3638 /* Localizable.strings in Resources */,
 				B4EE257527E0A7400032D511 /* LaunchScreen.storyboard in Resources */,
 				B42DE58227E0B504009711F4 /* swiftgen.yml in Resources */,
+				B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */,
 				B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */,
 				B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */,
-				B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,8 +600,10 @@
 				B44880D027FDCBF1003D6406 /* Colors.swift in Sources */,
 				B4EE256D27E0A73E0032D511 /* ViewController.swift in Sources */,
 				B44880D427FDCE25003D6406 /* Localization.swift in Sources */,
+				B4462AEB283CDF5200AFD97E /* MessageViewProtocol.swift in Sources */,
 				B4EE256927E0A73E0032D511 /* AppDelegate.swift in Sources */,
 				B480566827EC5CAB00B41124 /* NSObject.swift in Sources */,
+				B4462AE5283CD4C000AFD97E /* UIView+LoadingIndicator.swift in Sources */,
 				B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */,
 				B47249E727FC675300AD8626 /* BartyCrouch.swift in Sources */,
 				B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */,
@@ -580,16 +613,19 @@
 				B480566627EC5AD500B41124 /* UIImageView.swift in Sources */,
 				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
 				B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */,
-				B44145932831068D006A0312 /* BaseVCProtocol.swift in Sources */,
+				B49A8187283BCB4D00AAF4B3 /* MsgView.swift in Sources */,
 				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
+				B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */,
 				B44880D227FDCBF1003D6406 /* Fonts.swift in Sources */,
 				B480566427EC4F6900B41124 /* UIViewController.swift in Sources */,
 				B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */,
 				B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */,
 				B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */,
+				B4462AED283CDFB200AFD97E /* BaseVCProtocol.swift in Sources */,
 				B4E65A0027E1E54B00B0CC4B /* NetworkError.swift in Sources */,
 				B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */,
 				B480565C27EB1C3000B41124 /* UIColor.swift in Sources */,
+				B4462AE9283CDF2700AFD97E /* LoadingIndicatorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

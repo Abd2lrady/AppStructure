@@ -6,8 +6,9 @@
 //
 
 import UIKit
-@IBDesignable
+
 extension UIView {
+    
     @IBInspectable var radius: CGFloat {
         get {
             return layer.cornerRadius
