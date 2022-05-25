@@ -32,7 +32,6 @@
 		B480566827EC5CAB00B41124 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObject.swift */; };
 		B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49457A928295FE900F000B2 /* UIView+NIB.swift */; };
 		B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */; };
-		B49A8187283BCB4D00AAF4B3 /* MsgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8186283BCB4D00AAF4B3 /* MsgView.swift */; };
 		B4C2D41A282D12E000188FD6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C2D41C282D12E000188FD6 /* ViewController.xib */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
@@ -84,7 +83,6 @@
 		B480566727EC5CAB00B41124 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		B49457A928295FE900F000B2 /* UIView+NIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
 		B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseVC+BaseVCProtocol.swift"; sourceTree = "<group>"; };
-		B49A8186283BCB4D00AAF4B3 /* MsgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgView.swift; sourceTree = "<group>"; };
 		B4C2D41B282D12E000188FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 		B4C2D41E282D12E600188FD6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -299,7 +297,6 @@
 		B4E659E127E0D6EB00B0CC4B /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				B49A8186283BCB4D00AAF4B3 /* MsgView.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -613,7 +610,6 @@
 				B480566627EC5AD500B41124 /* UIImageView.swift in Sources */,
 				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
 				B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */,
-				B49A8187283BCB4D00AAF4B3 /* MsgView.swift in Sources */,
 				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
 				B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */,
 				B44880D227FDCBF1003D6406 /* Fonts.swift in Sources */,

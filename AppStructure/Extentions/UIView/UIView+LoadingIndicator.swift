@@ -22,19 +22,21 @@ extension UIView: LoadingIndicatorProtocol {
                                                 type: .ballClipRotate,
                                                 color: .black,
                                                 padding: 0)
-        indicator.tag = 555_555
         self.addSubview(indicator)
         self.isUserInteractionEnabled = false
         indicator.startAnimating()
     }
     
     func hideIndicator() {
-        
-        guard let indicator = self.viewWithTag(555_555) as? NVActivityIndicatorView
-        else { return }
+        var indicator: NVActivityIndicatorView?
+        for  subView in subviews {
+            if let view = subView as? NVActivityIndicatorView {
+                indicator = view
+                break
+            }
+        }
         self.isUserInteractionEnabled = true
-        indicator.stopAnimating()
-        indicator.removeFromSuperview()
-
+        indicator?.stopAnimating()
+        indicator?.removeFromSuperview()
     }
 }
