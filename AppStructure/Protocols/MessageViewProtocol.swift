@@ -18,10 +18,13 @@ enum MsgView: String {
 
 protocol MessageViewProtocol {
     
-    func showMessage(title: String?,
-                     body: String?,
-                     msgType: MsgView,
-                     msgBtnAction: @escaping( () -> Void) )
+    func showMessageWithAction(title: String?,
+                               body: String?,
+                               msgType: MsgView,
+                               msgBtnAction: @escaping( () -> Void) )
+    
+    func showMessage(msgType: MsgView,
+                     body: String)
     
     func hideMesssage()
 

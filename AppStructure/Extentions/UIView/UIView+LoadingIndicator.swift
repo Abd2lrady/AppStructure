@@ -10,18 +10,13 @@ import NVActivityIndicatorView
 
 extension UIView: LoadingIndicatorProtocol {
     
-    func showIndicator() {
+    func showIndicator(frame: CGRect) {
         
-        let indicatorWidth = self.frame.width / 2
-        let indicatorHeight = self.frame.height / 2
-
-        let indicator = NVActivityIndicatorView(frame: CGRect(x: self.center.x - indicatorWidth / 2,
-                                                              y: self.center.y - indicatorHeight / 2,
-                                                              width: indicatorWidth,
-                                                              height: indicatorHeight),
+        let indicator = NVActivityIndicatorView(frame: frame,
                                                 type: .ballClipRotate,
                                                 color: .black,
                                                 padding: 0)
+        indicator.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(indicator)
         self.isUserInteractionEnabled = false
         indicator.startAnimating()

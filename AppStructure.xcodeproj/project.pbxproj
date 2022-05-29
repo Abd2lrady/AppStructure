@@ -14,7 +14,7 @@
 		B4462AE5283CD4C000AFD97E /* UIView+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AE4283CD4C000AFD97E /* UIView+LoadingIndicator.swift */; };
 		B4462AE9283CDF2700AFD97E /* LoadingIndicatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */; };
 		B4462AEB283CDF5200AFD97E /* MessageViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */; };
-		B4462AED283CDFB200AFD97E /* BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */; };
+		B4462AED283CDFB200AFD97E /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4462AEC283CDFB200AFD97E /* BaseViewControllerProtocol.swift */; };
 		B44880C827FDC23B003D6406 /* .bartycrouch.toml in Resources */ = {isa = PBXBuildFile; fileRef = B44880C727FDC23B003D6406 /* .bartycrouch.toml */; };
 		B44880CA27FDC7CA003D6406 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44880C927FDC7CA003D6406 /* Colors.xcassets */; };
 		B44880D027FDCBF1003D6406 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44880CD27FDCBF1003D6406 /* Colors.swift */; };
@@ -31,7 +31,7 @@
 		B480566627EC5AD500B41124 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566527EC5AD500B41124 /* UIImageView.swift */; };
 		B480566827EC5CAB00B41124 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566727EC5CAB00B41124 /* NSObject.swift */; };
 		B49457AA28295FE900F000B2 /* UIView+NIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49457A928295FE900F000B2 /* UIView+NIB.swift */; };
-		B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */; };
+		B49A8181283BC7EC00AAF4B3 /* BaseViewController+BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A8180283BC7EC00AAF4B3 /* BaseViewController+BaseViewControllerProtocol.swift */; };
 		B4C2D41A282D12E000188FD6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C2D41C282D12E000188FD6 /* ViewController.xib */; };
 		B4E659D727E0C7DC00B0CC4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */; };
 		B4E659FD27E1E54B00B0CC4B /* StaticHeaderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E659E827E1E54B00B0CC4B /* StaticHeaderPlugin.swift */; };
@@ -60,7 +60,7 @@
 		B4462AE4283CD4C000AFD97E /* UIView+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadingIndicator.swift"; sourceTree = "<group>"; };
 		B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorProtocol.swift; sourceTree = "<group>"; };
 		B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewProtocol.swift; sourceTree = "<group>"; };
-		B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVCProtocol.swift; sourceTree = "<group>"; };
+		B4462AEC283CDFB200AFD97E /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
 		B44880C727FDC23B003D6406 /* .bartycrouch.toml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .bartycrouch.toml; sourceTree = "<group>"; };
 		B44880C927FDC7CA003D6406 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B44880CD27FDCBF1003D6406 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		B480566527EC5AD500B41124 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		B480566727EC5CAB00B41124 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		B49457A928295FE900F000B2 /* UIView+NIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NIB.swift"; sourceTree = "<group>"; };
-		B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseVC+BaseVCProtocol.swift"; sourceTree = "<group>"; };
+		B49A8180283BC7EC00AAF4B3 /* BaseViewController+BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseViewController+BaseViewControllerProtocol.swift"; sourceTree = "<group>"; };
 		B4C2D41B282D12E000188FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ViewController.xib; sourceTree = "<group>"; };
 		B4C2D41E282D12E600188FD6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ViewController.strings; sourceTree = "<group>"; };
 		B4E659D027E0C7DC00B0CC4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		B441459128310659006A0312 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B49A8180283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift */,
+				B49A8180283BC7EC00AAF4B3 /* BaseViewController+BaseViewControllerProtocol.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			children = (
 				B4462AE8283CDF2700AFD97E /* LoadingIndicatorProtocol.swift */,
 				B4462AEA283CDF5200AFD97E /* MessageViewProtocol.swift */,
-				B4462AEC283CDFB200AFD97E /* BaseVCProtocol.swift */,
+				B4462AEC283CDFB200AFD97E /* BaseViewControllerProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -611,13 +611,13 @@
 				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
 				B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */,
 				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
-				B49A8181283BC7EC00AAF4B3 /* BaseVC+BaseVCProtocol.swift in Sources */,
+				B49A8181283BC7EC00AAF4B3 /* BaseViewController+BaseViewControllerProtocol.swift in Sources */,
 				B44880D227FDCBF1003D6406 /* Fonts.swift in Sources */,
 				B480566427EC4F6900B41124 /* UIViewController.swift in Sources */,
 				B4E65A0727E1E54B00B0CC4B /* Reachability.swift in Sources */,
 				B4E659FF27E1E54B00B0CC4B /* NetworkDefaults.swift in Sources */,
 				B4E65A0827E1E54B00B0CC4B /* NetworkMonitor.swift in Sources */,
-				B4462AED283CDFB200AFD97E /* BaseVCProtocol.swift in Sources */,
+				B4462AED283CDFB200AFD97E /* BaseViewControllerProtocol.swift in Sources */,
 				B4E65A0027E1E54B00B0CC4B /* NetworkError.swift in Sources */,
 				B4EE256B27E0A73E0032D511 /* SceneDelegate.swift in Sources */,
 				B480565C27EB1C3000B41124 /* UIColor.swift in Sources */,

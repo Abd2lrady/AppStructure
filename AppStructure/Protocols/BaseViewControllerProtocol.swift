@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol BaseVCProtocol: UIViewController,
+protocol BaseViewControllerProtocol: UIViewController,
                          MessageViewProtocol,
                          LoadingIndicatorProtocol {
 

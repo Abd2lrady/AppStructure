@@ -5,11 +5,11 @@
 //  Created by Ahmad Abdulrady
 //
 
-import Foundation
+import UIKit
 
 protocol LoadingIndicatorProtocol {
     
-    func showIndicator()
+    func showIndicator(frame: CGRect)
     func hideIndicator()
     
 }

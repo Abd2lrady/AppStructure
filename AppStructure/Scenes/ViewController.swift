@@ -8,9 +8,9 @@ import UIKit
 import NVActivityIndicatorView
 import SwiftMessages
 
-class ViewController: BaseVC {
+class ViewController: BaseViewController {
     @IBOutlet private weak var label: UILabel!
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,9 +28,11 @@ class ViewController: BaseVC {
 //            self.hideMesssage()
 //            self.hideIndicator()
 //        }
-        showAutomaticMessage(msgType: .error, body: "There is Error")
+        showMessage(msgType: .error,
+                    body: "There is Error")
         
     }
+    
     func testLabel() {
         // label.font = UIFont(font: Fonts._29LTAzer.bold, size: 50)
         // label.setCorners(with: 30)
@@ -47,10 +49,7 @@ class ViewController: BaseVC {
     }
     
     func testIndicator() {
-        showIndicator()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.hideIndicator()
-        }
+        label.showIndicator(frame: label.frame)
     }
     
     func testBartyCrouchTranslation() {
