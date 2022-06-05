@@ -10,7 +10,7 @@ import NVActivityIndicatorView
 
 extension UIView: LoadingIndicatorProtocol {
     
-    func showIndicator(frame: CGRect) {
+    func showLoadingIndicator(frame: CGRect) {
         
         let indicator = NVActivityIndicatorView(frame: frame,
                                                 type: .ballClipRotate,
@@ -22,7 +22,7 @@ extension UIView: LoadingIndicatorProtocol {
         indicator.startAnimating()
     }
     
-    func hideIndicator() {
+    func hideLoadingIndicator() {
         var indicator: NVActivityIndicatorView?
         for  subView in subviews {
             if let view = subView as? NVActivityIndicatorView {

@@ -80,11 +80,11 @@ extension BaseViewController {
 // MARK: - BaseVC Extension for Loading Indicator
 extension BaseViewController {
     
-    func showIndicator(frame: CGRect) {
-        view.showIndicator(frame: frame)
+    func showLoadingIndicator(frame: CGRect) {
+        view.showLoadingIndicator(frame: frame)
     }
     
-    func hideIndicator() {
-        view.hideIndicator()
+    func hideLoadingIndicator() {
+        view.hideLoadingIndicator()
     }
 }

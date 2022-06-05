@@ -9,7 +9,7 @@ import UIKit
 
 protocol LoadingIndicatorProtocol {
     
-    func showIndicator(frame: CGRect)
-    func hideIndicator()
+    func showLoadingIndicator(frame: CGRect)
+    func hideLoadingIndicator()
     
 }
