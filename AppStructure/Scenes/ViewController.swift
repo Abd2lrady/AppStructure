@@ -19,7 +19,8 @@ class ViewController: BaseViewController {
         testMessage()
         testIndicator()
         print(ViewController.className)
-        testAPI()
+        // testAPI()
+        testMoyaApi()
     }
     
     func testMessage() {
@@ -85,4 +86,24 @@ func testAPI() {
             }
         }
     }.resume()
+}
+
+func testMoyaApi() {
+    let networkManager = NetworkManager.shared
+    networkManager.request(target: UserTarget.getUser) { result, statusCode in
+        print(statusCode ?? 0)
+        switch result {
+        case .success(let data):
+            do {
+                let users = try JSONDecoder().decode([User].self, from: data)
+                print(users)
+            } catch {
+                print("parsing error")
+            }
+            
+        case .failure(let error):
+            print(error)
+        }
+    }
+    
 }

@@ -25,6 +25,7 @@
 		B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C77727E3310000DA3638 /* AppDelegate+Extension.swift */; };
 		B463C78527E3427900DA3638 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B463C78727E3427900DA3638 /* Localizable.strings */; };
 		B47249E727FC675300AD8626 /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47249E627FC675300AD8626 /* BartyCrouch.swift */; };
+		B4727161284F6B8E000E20C9 /* UserTraget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727160284F6B8E000E20C9 /* UserTraget.swift */; };
 		B480565C27EB1C3000B41124 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565B27EB1C3000B41124 /* UIColor.swift */; };
 		B480565E27EB5E6100B41124 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480565D27EB5E6100B41124 /* UIView.swift */; };
 		B480566427EC4F6900B41124 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480566327EC4F6900B41124 /* UIViewController.swift */; };
@@ -76,6 +77,7 @@
 		B463C78627E3427900DA3638 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B463C78827E3428500DA3638 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B47249E627FC675300AD8626 /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
+		B4727160284F6B8E000E20C9 /* UserTraget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTraget.swift; sourceTree = "<group>"; };
 		B480565B27EB1C3000B41124 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B480565D27EB5E6100B41124 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		B480566327EC4F6900B41124 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +170,14 @@
 			path = BartyCrouch;
 			sourceTree = "<group>";
 		};
+		B472715F284F6B1B000E20C9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B445BE8228104021005D87DA /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		B4E659C027E0C7DC00B0CC4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,8 +243,8 @@
 		B4E659D927E0D2FF00B0CC4B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B472715F284F6B1B000E20C9 /* User */,
 				B4E659F927E1E54B00B0CC4B /* BaseModel */,
-				B445BE8228104021005D87DA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -340,6 +350,7 @@
 		B4E659EC27E1E54B00B0CC4B /* APITargets */ = {
 			isa = PBXGroup;
 			children = (
+				B4727160284F6B8E000E20C9 /* UserTraget.swift */,
 			);
 			path = APITargets;
 			sourceTree = "<group>";
@@ -608,6 +619,7 @@
 				B4E65A0927E1E54B00B0CC4B /* APIResponse.swift in Sources */,
 				B480565E27EB5E6100B41124 /* UIView.swift in Sources */,
 				B480566627EC5AD500B41124 /* UIImageView.swift in Sources */,
+				B4727161284F6B8E000E20C9 /* UserTraget.swift in Sources */,
 				B463C77627E32F7B00DA3638 /* SceneDelegate+Extension.swift in Sources */,
 				B441459E2833F8C4006A0312 /* UIView+Inspectable.swift in Sources */,
 				B463C77827E3310000DA3638 /* AppDelegate+Extension.swift in Sources */,
