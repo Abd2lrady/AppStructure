@@ -20,7 +20,7 @@ extension UserTarget: TargetType {
     }
     
     var path: String {
-        return "3abd7722-a991-4d9e-8000-fb86e613a249"
+        return "2a9eeccd-290f-40db-802f-9afe4e937769"
     }
     
     var method: Moya.Method {

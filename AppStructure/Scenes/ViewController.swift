@@ -95,8 +95,9 @@ func testMoyaApi() {
         switch result {
         case .success(let data):
             do {
-                let users = try JSONDecoder().decode([User].self, from: data)
-                print(users)
+                let response = try JSONDecoder().decode(APIResponse<[User]>.self,
+                                                        from: data)
+                print(response.data ?? [User]())
             } catch {
                 print("parsing error")
             }
