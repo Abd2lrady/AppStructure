@@ -14,13 +14,13 @@ enum UserTarget {
 
 extension UserTarget: TargetType {
     var baseURL: URL {
-        guard let url = URL(string: "https://mocki.io/v1")
+        guard let url = URL(string: ApiConstants.baseURL)
         else { fatalError("wrong baseUrl") }
         return url
     }
     
     var path: String {
-        return "2a9eeccd-290f-40db-802f-9afe4e937769"
+        return ApiConstants.path
     }
     
     var method: Moya.Method {
