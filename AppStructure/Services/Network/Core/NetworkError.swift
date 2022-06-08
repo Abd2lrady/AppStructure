@@ -17,7 +17,7 @@ struct NetworkError: Codable, Error, LocalizedError {
     var code: Int?
     var key: String?
     var message: String?
-    var type: Type?
+    var type: `Type`?
     var fields: [String: String]?
     
     var underling: Error?
@@ -78,13 +78,13 @@ struct NetworkError: Codable, Error, LocalizedError {
 extension NetworkError {
     static let parseError: NetworkError = {
         var error = NetworkError()
-        error.type = Type.mapping
+        error.type = `Type`.mapping
         return error
     }()
     
     static let genaricError: NetworkError = {
         var error = NetworkError()
-        error.type = Type.business
+        error.type = `Type`.business
         return error
     }()
 }

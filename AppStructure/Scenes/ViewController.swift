@@ -10,7 +10,6 @@ import SwiftMessages
 
 class ViewController: BaseViewController {
     @IBOutlet private weak var label: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,7 +19,8 @@ class ViewController: BaseViewController {
         testIndicator()
         print(ViewController.className)
         // testAPI()
-        testMoyaApi()
+        // testMoyaApi()
+        testUserRepository()
     }
     
     func testMessage() {
@@ -67,7 +67,6 @@ class ViewController: BaseViewController {
         _ = L10n.NewMain.titleLabel
 
     }
-}
 
 func testAPI() {
     guard let url = URL(string: "https://mocki.io/v1/3abd7722-a991-4d9e-8000-fb86e613a249")
@@ -104,6 +103,20 @@ func testMoyaApi() {
             
         case .failure(let error):
             print(error)
+        }
+    }
+}
+    
+    func testUserRepository() {
+        print("test repository")
+        let userRepository: UserGatewayProtocol = RemoteUserService()
+        userRepository.getUser { result in
+            switch result {
+            case .failure(let error):
+                print(error.type?.rawValue ?? "error" )
+            case .success(let users):
+                print(users)
+            }
         }
     }
     
